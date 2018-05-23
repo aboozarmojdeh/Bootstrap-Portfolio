@@ -1,0 +1,58 @@
+body{
+
+    
+    background-image: url("../images/spring.png");
+
+}
+
+
+
+.card h4{
+position: absolute;
+bottom: 10%;
+    
+    background-color: #4aaaa5 !important;
+    color: white;
+    text-align: center;
+    left:0;
+    right:0%;
+    padding:10px;
+    text-transform: uppercase;
+
+
+}
+
+h2  {
+        
+    color: #4aaaa5;
+   } 
+
+  h3.bg-primary  {
+     background-color: #4aaaa5 !important;
+     color: white;
+    } 
+
+    .active{
+       text-emphasis-color: red !important;
+        font-weight: bold;
+    }
+
+
+    .btn-primary{
+background-color: #4aaaa5;
+    }
+
+    .btn-primary:hover {
+        color: #fff;
+        background-color: #77c5c1;
+        border-color: #0062cc;
+      }
+
+      header{
+           
+          border-bottom: rgba(0, 0, 0, 0.1) solid 2px;
+      }
+
+  
+     
+    
