@@ -1,25 +1,22 @@
-html {
+/* html {
     height: 100%;
-  }
+  }*/
 
   body {
-    min-height: 100%;
-    display: grid;
-    grid-template-rows: 1fr auto;
+    /* min-height: 100%; */
+    /* display: grid; */
+    /* grid-template-rows: 1fr auto; */
     background-image: url("../images/spring.png");
-  }
-
+  } 
+a {
+  color:black;
+}
   .footer {
     border-top: #4aaaa5 4px solid;
     grid-row-start: 2;
     grid-row-end: 3;
     
   }
-
-
-
-
-
 
 .card h4{
 position: absolute;
@@ -46,8 +43,8 @@ h2  {
      color: white;
     } 
 
-    .active{
-       text-emphasis-color: red !important;
+    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+       color: red !important;
         font-weight: bold;
     }
 
@@ -57,7 +54,7 @@ background-color: #4aaaa5;
     }
 
     .btn-primary:hover {
-        color: #fff;
+        color: black;
         background-color: #77c5c1;
         border-color: #0062cc;
       }
@@ -85,6 +82,74 @@ h3.col-sm-9{
   margin-right: 0;
   margin-left: 0;
 }
+
+/* carousel */
+
+#sync1 .item {
+  background: none;
+  padding: 0px;
+  margin: 5px;
+  /* color: #FFF; */
+  border-radius: 3px;
+  text-align: center;
+  color:black;
+}
+#sync2 .item {
+  background:  #C9C9C9;
+  padding: 10px 0px;
+  margin: 5px;
+  color: black;
+  border-radius: 3px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 3px solid red;
+  border: 1px solid red;
+  
+}
+#sync2 .item h1 {
+  font-size: 18px;
+  
+}
+#sync2 .current .item {
+  background: #4aaaa5;
+  
+}
+.owl-theme .owl-nav {
+  /* default owl-theme theme reset .disabled:hover links */
+}
+.owl-theme .owl-nav [class*='owl-'] {
+  transition: all .3s ease;
+  border-radius: 3px solid red;
+  border: 1px solid red;
+  
+}
+.owl-theme .owl-nav [class*='owl-'].disabled:hover {
+  background-color: #D6D6D6;
+  
+}
+
+
+#sync1.owl-theme {
+  position: relative;
+}
+#sync1.owl-theme .owl-next,
+#sync1.owl-theme .owl-prev {
+  width: 22px;
+  height: 40px;
+  margin-top: -20px;
+  position: absolute;
+  top: 50%;
+  color:black;
+}
+#sync1.owl-theme .owl-prev {
+  left: 10px;
+
+}
+#sync1.owl-theme .owl-next {
+  right: 10px;
+ 
+}
+
 
 
 
